@@ -76,12 +76,8 @@ def visualize_system():
     # Geometry Types
     print_header("SACRED GEOMETRY TYPES & COLORS")
     
-    geometry_types = [
-        "triangle_upward", "triangle_downward", "circle", "spiral",
-        "hexagon", "mandala", "constellation", "sphere"
-    ]
-    
-    for geom_type in geometry_types:
+    # Display all geometry types from the renderer
+    for geom_type in sorted(GeometryRenderer.GEOMETRY_COLORS.keys()):
         color = GeometryRenderer.get_geometry_color(geom_type)
         print(f"    {geom_type:20s} {color}")
     
