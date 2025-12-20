@@ -1,0 +1,8 @@
+# Days of Future Past - AR Discovery System
+# Python requirements
+
+# Async support
+aiohttp>=3.9.0
+
+# For JSON handling
+typing-extensions>=4.0.0
