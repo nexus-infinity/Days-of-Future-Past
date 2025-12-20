@@ -1,0 +1,27 @@
+ID,Name,BitType,Description,Location,Epoch,RelatedIDs,Status
+H001,"10 Watts Parade",HOME,"Childhood home in Mount Eliza - coastal Australian residence where the protagonist's journey begins","-38.2134, 145.0889",Present,"S001,S002,A001,M001",Active
+S001,"Living Room",SPACE,"Warm, Pinterest-styled living room with natural light and nostalgic comfort","10 Watts Parade",Present,"H001,O001,O002,A001",Active
+S002,"DOJO Training Room",SPACE,"White void training space - Matrix-inspired minimalist digital environment","10 Watts Parade - Digital Layer",Present,"H001,A001,T001,E001",Active
+S003,"Backyard",SPACE,"Outdoor space with eucalyptus trees - site of AR petal grid ritual","10 Watts Parade",Present,"H001,T002,E002",Active
+O001,"Family Photograph",OBJECT,"Framed photo on mantelpiece - shows family at beach, triggers memories","Living Room",Past,"S001,M001,M002,A001",Active
+O002,"Sacred Geometry Journal",OBJECT,"Hand-drawn journal containing FIELD patterns and geometric diagrams","Living Room",Present,"S001,A001,F001",Active
+O003,"Ritual Key",OBJECT,"Brass key with spiral pattern - unlocks DOJO access","Living Room",Present,"S001,T001,E001",Active
+A001,"Protagonist",ACTOR,"The one who remembers - able to perceive dual-space reality","10 Watts Parade",Present,"H001,S001,M001,M002,M003,T001",Active
+A002,"Memory Echo",ACTOR,"Manifestation of protagonist's younger self - appears in DOJO","DOJO Training Room",Past,"S002,M003,A001",Conditional
+A003,"Guide AI",ACTOR,"Synthetic intelligence companion teaching FIELD System navigation","Digital Layer",Present,"S002,F001,A001,SG001",Active
+E001,"The Awakening",EVENT,"First moment of dual-space perception - protagonist sees both realities simultaneously","DOJO Training Room",Present,"S002,A001,T001,SG001",Pending
+E002,"Petal Grid Activation",EVENT,"AR ritual in backyard that fully unlocks FIELD vision","Backyard",Present,"S003,T002,F001,A001",Pending
+E003,"The Fracture",EVENT,"Narrative climax - understanding that separation was always illusion","Multiple Locations",Present,"H001,A001,F001,V001",Pending
+SG001,"First Vision",SIGNAL,"Initial glitch in perception - brief flash of Digital Space overlay","Living Room",Present,"S001,A001,E001,M003",Active
+SG002,"AI Welcome Message",SIGNAL,"Guide AI introduces itself and explains FIELD System","DOJO Training Room",Present,"A003,S002,A001",Conditional
+SG003,"Coordinates Transmission",SIGNAL,"GPS data revealing other Sacred Nodes across Mount Eliza","Backyard",Present,"S003,T002,F001",Pending
+M001,"Childhood Beach Memory",MEMORY,"Sunlit afternoon at Mount Eliza beach - feeling of safety and belonging","Mount Eliza Beach",2005,"O001,A001,H001",Active
+M002,"Drawing Patterns",MEMORY,"Memory of tracing sacred geometry in sand as a child - intuitive knowing","Mount Eliza Beach",2005,"O001,M001,F001",Active
+M003,"Moment of Separation",MEMORY,"Traumatic moment when dual-space vision was suppressed - origin of the Fracture","10 Watts Parade",2015,"A001,A002,E003",Revealed
+T001,"DOJO Portal",THRESHOLD,"Doorway between Physical living room and Digital white void","Living Room <-> DOJO",Present,"S001,S002,O003,E001",Locked
+T002,"AR Gateway",THRESHOLD,"Backyard threshold activated by petal grid ritual - access to wider FIELD","Backyard",Present,"S003,E002,F001",Locked
+T003,"Memory Gateway",THRESHOLD,"Psychological threshold between present awareness and past trauma","Internal/Psychological",Present,"M003,A001,E003",Locked
+F001,"Mount Eliza FIELD Network",FIELD,"Interconnected web of Sacred Nodes across the region - larger AR system","Mount Eliza Region",Present,"H001,S003,O002,E002,SG003",Emerging
+F002,"Personal Relationship Web",FIELD,"Network of protagonist's connections to places, people, memories","Multiple Locations",Present,"A001,M001,M002,M003,H001",Active
+V001,"The Unsaid",VOID,"What protagonist doesn't yet remember - the truth hidden beyond the Fracture","Unknown",Unknown,"E003,M003,T003",Mystery
+V002,"Unwritten Future",VOID,"Choices not yet made - potential paths through remaining episodes","Unknown",Future,"A001,F001",Potential
