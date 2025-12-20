@@ -79,7 +79,7 @@ class ARScene:
     field_id: str
     markers: List[ARMarker]
     ambient_lighting: Dict
-    geometry_prefabs: List[str]
+    geometry_prefabs: List[Dict]
     
     def to_dict(self) -> Dict:
         return {
