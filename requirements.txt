@@ -1,0 +1,14 @@
+# Days of Future Past - AR Discovery System
+# Python requirements
+
+# Core Python packages
+dataclasses-json>=0.6.0
+
+# Async support
+aiohttp>=3.9.0
+
+# Data validation
+pydantic>=2.0.0
+
+# For JSON handling
+typing-extensions>=4.0.0
